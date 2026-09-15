@@ -1,0 +1,10 @@
+student = {
+    "name": "Keerthu",
+    "age": 22,
+    "course": "MCA"
+}
+
+student["age"] = 23
+student["city"] = "Coimbatore"
+
+print(student)
