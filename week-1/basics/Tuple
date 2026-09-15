@@ -1,0 +1,7 @@
+coordinates = (10, 20)
+
+x = coordinates[0]
+y = coordinates[1]
+
+print("X =", x)
+print("Y =", y)
