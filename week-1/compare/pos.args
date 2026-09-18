@@ -1,0 +1,5 @@
+def greet(name, age):
+    print(f"Hello {name}, you are {age} years old.")
+
+# "Alice" goes to name, 25 goes to age based on their order
+greet("Alice", 25) 
