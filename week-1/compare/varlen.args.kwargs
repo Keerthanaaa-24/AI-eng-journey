@@ -1,0 +1,12 @@
+# Using *args to accept multiple positional values
+def sum_numbers(*args):
+    return sum(args) # args is a tuple like (1, 2, 3, 4)
+
+print(sum_numbers(1, 2, 3, 4)) # Output: 10
+
+# Using **kwargs to accept multiple keyword values
+def show_profile(**kwargs):
+    print(kwargs) # kwargs is a dictionary
+
+show_profile(name="Alice", age=25, city="New York") 
+# Output: {'name': 'Alice', 'age': 25, 'city': 'New York'}
